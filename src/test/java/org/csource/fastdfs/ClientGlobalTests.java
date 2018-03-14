@@ -8,7 +8,7 @@ import java.util.Properties;
 public class ClientGlobalTests {
 
   public static void main(String[] args) throws Exception {
-    String trackerServers = "10.0.11.101:22122,10.0.11.102:22122";
+    String trackerServers = "192.168.139.151:22122,192.168.139.152:22122";
     ClientGlobal.initByTrackers(trackerServers);
     System.out.println("ClientGlobal.configInfo() : " + ClientGlobal.configInfo());
 
